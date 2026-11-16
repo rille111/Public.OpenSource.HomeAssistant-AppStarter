@@ -1,4 +1,16 @@
-﻿# Hass AppStarter
+﻿# Deprecated — unmaintained
+
+**This project is unmaintained and no longer works with current Home Assistant.**
+
+It authenticates with the legacy `api_password`, which Home Assistant removed. Query-string authentication was dropped around 0.96 in 2019, and the `legacy_api_password` auth provider was removed in 2024 ([home-assistant/core#119976](https://github.com/home-assistant/core/pull/119976)).
+
+The maintained C# alternative is [NetDaemon](https://netdaemon.xyz) ([net-daemon/netdaemon](https://github.com/net-daemon/netdaemon)).
+
+The NuGet package [HomeAssistant.AppStarter 0.2.5](https://www.nuget.org/packages/HomeAssistant.AppStarter/0.2.5) stays published but unmaintained.
+
+---
+
+# Hass AppStarter
 
 ## Purpose
 
